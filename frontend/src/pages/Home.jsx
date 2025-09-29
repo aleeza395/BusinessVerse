@@ -32,7 +32,7 @@ const Home = () => {
     <div className="home-container">
       <section id="section1">
         <div className="background">
-          <h1>Welcome to InfoOnIdea</h1>
+          <h1>Welcome to BusinessVerse</h1>
           <p>
             Just type the idea you got to get all the information you need about
             it.
