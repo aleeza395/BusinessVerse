@@ -17,7 +17,7 @@ const Home = () => {
       try {
         console.log("Idea:", idea);
         const response = await axios.post(
-          `http://localhost:5000/api/${selected}`,
+          `https://business-verse.vercel.app/api/${selected}`,
           { idea }
         );
         setResults(response.data);
